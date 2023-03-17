@@ -1,5 +1,3 @@
-import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
-
 export const meals = [
     {
         name: "Oma's Mac 'n Cheese",
@@ -37,7 +35,7 @@ export const meals = [
             'You can use the mushroom liquid for a stock or sauce, or add it to the cream and milk for the mac n cheese. Umami flavours are always great.',
             'Must admit, adding sliced green pepper along with the onions allows for a warm Italian flavour.'
         ],
-        uuid: uuidv4()
+        uuid: 1
     },
     {
         name: "Dinky's Snail shaped pasta with tomato and Lamb",
@@ -82,7 +80,7 @@ export const meals = [
             'Parmesan and Cilantro or Parsley to top the dish, also modern, but delicious',
             'Could use rigatoni, penne or other pasta shape that will hold the sauce'
         ],
-        uuid: uuidv4()
+        uuid: 2
     },
     {
         name: "80's Chicken Curry",
@@ -118,7 +116,7 @@ export const meals = [
         notes: [
             'Simple to the max, but honestly, really good, and not too spicy, so even the kids enjoyed the curry'
         ],
-        uuid: uuidv4()
+        uuid: 3
     },
     {
         name: "80's Beef Stew",
@@ -153,7 +151,7 @@ export const meals = [
             'This dinner really went down well, even though it did not have the finesse of a modern stew. No garlic, no parsley, just good old fashioned comfort food.',
             'If I made chicken stew, the process was much the same, just that cooking time on the chicken pieces was a little shorter. (Never thought of chicken fillets back then, just good old braai chicken pieces). Instead of only water, I did add milk as well, when adding in the Chicken or Tomato soup and sometimes added dried Thyme'
         ],
-        uuid: uuidv4()
+        uuid: 4
     },
     {
         name: "Breakfast Oat Bake",
@@ -177,7 +175,7 @@ export const meals = [
         notes: [
             "I like to serve this with a bit of milk or plain yoghurt on top"
         ],
-        uuid: uuidv4()
+        uuid: 5
     },
     {
         name: "Dinky's Cottage Pie",
@@ -221,7 +219,7 @@ export const meals = [
             'Cottage Pie came around in 1791, and it was considered a “poor mans dinner.”',
             "Shepherd’s Pie has always used mashed potatoes as a topping, whereas traditionally, Cottage Pie used sliced potatos."
         ],
-        uuid: uuidv4()
+        uuid: 6
     },
     {
         name: "Super simple minestrone soup",
@@ -263,7 +261,7 @@ export const meals = [
         notes: [
             'Could not be more simple!',
         ],
-        uuid: uuidv4()
+        uuid: 7
     },
     {
         name: "Sweet Potato & Butternut Soup",
@@ -291,7 +289,7 @@ export const meals = [
         notes: [
             'So simple, and very satisfying',
         ],
-        uuid: uuidv4()
+        uuid: 8
     },
     {
         name: "Uncle Roly's yummy Milk Tart(Old Style)",
@@ -329,7 +327,7 @@ export const meals = [
             'Adding some cinnamon to the egg mixture gives it extra flavour',
             'This recipe should give you 2 average (23cm) milk tarts'
         ],
-        uuid: uuidv4()
+        uuid: 9
     },
 ]
 

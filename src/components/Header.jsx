@@ -1,13 +1,18 @@
 import React from "react"
 import {Link, NavLink} from "react-router-dom"
+import birdy from "../../images/birdy.png"
 
 export default function Header(){
     return (
-        <header>
+        <header className="header flex">
             <Link 
                 to="/"
             >
-                Kitchen Shares
+                <div className="flex">
+                    <img src={birdy} alt="birdy logo" className="logo"/>
+                    <h2>Kitchen Shares</h2>
+                </div>
+                
             </Link>
             <NavLink
                 to="breakfast"
@@ -25,7 +30,7 @@ export default function Header(){
                 Salads
             </NavLink>
             <NavLink
-                to="mainmeal"
+                to="main"
             >
                 Main Meals
             </NavLink>

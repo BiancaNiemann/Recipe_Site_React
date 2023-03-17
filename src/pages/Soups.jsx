@@ -1,6 +1,7 @@
 import React from "react"
 import {Link} from "react-router-dom"
 import {meals} from "../data"
+import {AiOutlineArrowLeft} from 'react-icons/Ai'
 
 export default function Soups(){
 
@@ -9,7 +10,7 @@ export default function Soups(){
             return (
                 <div className="mealBox" key={item.uuid} >
                     <Link 
-                        to="." 
+                        to={`../${item.uuid}`}  
                         key={item.uuid}  
                         style={{ textDecoration: 'none' }}
                     >
@@ -28,6 +29,12 @@ export default function Soups(){
     return (
         <div className="mealDiv">
             <h1>Soup Ideas</h1>
+            <Link 
+                to="../"
+                className="flex">
+                <AiOutlineArrowLeft />
+                <h3>Go back Home </h3>
+            </Link>
             <div className="flex">
                 {recipeRender}
             </div>

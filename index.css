@@ -4,10 +4,16 @@ body{
   padding: 0
 }
 
-.nav-bar{
-  display: flex;
+.header{
   width: 100%;
-  background-color: aquamarine;
+  border-bottom: 2px solid gray;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.logo{
+  width: 50px
 }
 
 h1{
@@ -15,8 +21,20 @@ h1{
   text-align: center;
 }
 
+main{
+  background-color: rgb(215, 237, 245);
+  height: 100vh;
+}
+
+.homeDiv{
+  justify-content: space-around;
+}
+
+.handyhacks{
+  background-color: pink;
+}
+
 .mealDiv{
-  background-color: lightskyblue;
   height: 100vh;
   padding: 20px 50px;
 }

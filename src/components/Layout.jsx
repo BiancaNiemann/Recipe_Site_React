@@ -5,9 +5,7 @@ import Header from "./Header"
 export default function Layout(){
     return (
         <div>
-            <div className="nav-bar">
-                <Header />
-            </div>
+            <Header />
             <main>
                 <Outlet />
             </main>

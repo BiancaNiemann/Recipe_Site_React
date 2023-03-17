@@ -22,9 +22,9 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="breakfast" element={<Breakfast />} />
     <Route path="soup" element={<Soups />} />
     <Route path="salad" element={<Salad />} />
-    <Route path="mainmeal" element={<MainMeals />} />
+    <Route path="main" element={<MainMeals />} />
     <Route path="dessert" element={<Dessert />} />
-    <Route path="breakfast/:id" element={<RecipeDetails/>} />
+    <Route path=":userId" element={<RecipeDetails/>} />
   </Route>
 
 ))
