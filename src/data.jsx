@@ -329,6 +329,36 @@ export const meals = [
         ],
         uuid: 9
     },
+    {
+        name: "Netties Irish Coddle",
+        mealType: "main",
+        mealSearch: ['stew', 'pork', 'irish'],
+        isVege : false,
+        image:"irish-coddle.JPG",
+        alt: "Irish Coddle in pot",
+        ingredients: [
+            '1 large Onion',
+            '1 packet Pork sausages',
+            '1 packet streaky bacon',
+            'Maizena or flour',
+            'Butter',
+            'Salt',
+            'Pepper'
+        ],
+        instructions:[
+            'Dice and fry the onions and bacon together till onion is clear in color',
+            'Add sausages and sufficient water to cover them',
+            'Leave to simmer till sausages are cooked and soft',
+            'Mix maizena or flour into a paste in a small bowl, must be fairly runny but sufficient flour to thicken',
+            'Pour paste into coddle and strill through and check for lumps',
+            'Continue simmering on low heat till you are ready to eat'
+        ],
+        notes: [
+            'Best served with mashed Potatoes and peas',
+            'You can also add potatoes and corrots to the pot'
+        ],
+        uuid: 10
+    },
 ]
 
 
