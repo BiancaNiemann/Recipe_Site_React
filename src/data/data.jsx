@@ -359,6 +359,102 @@ export const meals = [
         ],
         uuid: 10
     },
+    {
+        name: "Healthy Muffins for Kids - savoury",
+        mealType: "breakfast",
+        mealSearch: ['muffins', 'healthy', 'kids'],
+        isVege : true,
+        image:'Health-kid-muffins.JPG',
+        alt: 'Healthy kids muffins image',
+        ingredients: [
+            '2 1/2 cups flour',
+            '1 tbsp sugar',
+            '1 tsp baking powder',
+            '1/4 tsp salt',
+            '3/4 cup milk',
+            '1/2 cup yogurt',
+            '1/2 cup avo oil',
+            '1 large egg',
+            '1 grated zucchini',
+            '1/2 cup gratted cheddar cheese'
+        ],
+        instructions:[
+            'Pre-heat oven to 180 deg and get 12 muffin cups ready',
+            'In a bowl, mix all the dry ingredients together',
+            'In another bowl mix all wet ingredients together',
+            'Fold the wet ingredients into the dry ones and use a wooden spoon to mix until just combined. Dont over mix.',
+            'Divide batter into muffin cups',
+            'Bake in oven for 20-22 mins, or until golden brown on top'
+        ],
+        notes: [
+            'If by some crazy chance you have leftovers, you can store these in an airtight container, for up to 5 days in the fridge or 3 months in the freezer'
+        ],
+        uuid: 11
+    },
+    {
+        name: "Healthy Muffins for Kids - sweet",
+        mealType: "breakfast",
+        mealSearch: ['muffins', 'healthy', 'kids'],
+        isVege : true,
+        image:'Health-kid-muffins-sweet.JPG',
+        alt: 'Healthy kids muffins image',
+        ingredients: [
+            '2 1/2 cups flour',
+            '1/4 cup sugar',
+            '1 tsp baking powder',
+            '1/4 tsp salt',
+            '3/4 cup milk',
+            '1/2 cup yogurt',
+            '1/2 cup avo oil',
+            '1 large egg',
+            '1/4 cup Peanut Butter',
+            '1/4 cup stawberry jam'
+        ],
+        instructions:[
+            'Pre-heat oven to 180 deg and get 12 muffin cups ready',
+            'In a bowl, mix all the dry ingredients together',
+            'In another bowl mix all wet ingredients together',
+            'Fold the wet ingredients into the dry ones and use a wooden spoon to mix until just combined. Dont over mix.',
+            'Divide batter into muffin cups',
+            'Bake in oven for 20-22 mins, or until golden brown on top'
+        ],
+        notes: [
+            'If by some crazy chance you have leftovers, you can store these in an airtight container, for up to 5 days in the fridge or 3 months in the freezer'
+        ],
+        uuid: 12
+    },
+    {
+        name: "Simple Pasta Salad",
+        mealType: "salad",
+        mealSearch: ['pasta', 'salad'],
+        isVege : true,
+        image:"simple-pasta-salad.JPG",
+        alt: "Simple pasta salad image",
+        ingredients: [
+            '1 pound dried pasta like fusilli, penne, rotini or farfalle (bow tie)',
+            '1 cup sliced bell pepper (1 medium)',
+            '1 cup thinly sliced zucchini (1/2 medium)',
+            '1 cup halved cherry tomatoes',
+            '1/3 cup thinly sliced scallions (5 to 6)',
+            '1/4 cup sliced pepperoncini or banana peppers, optional',
+            '1 cup (4 ounces) halved mixed olives',
+            '1 cup (2 ounces) grated parmesan cheese or hard cheese',
+            '1/3 cup red wine vinegar, white wine vinegar',
+            '1/2 teaspoon fine sea salt, plus more to taste',
+            '1/2 teaspoon fresh ground black pepper',
+            '1/2 teaspoon dried oregano',
+            '2 to 3 tablespoons juice from pepperoncini jar, optional',
+            '1/2 cup extra-virgin olive oil',
+        ],
+        instructions:[
+            'Bring a large pot of salted water to a boil. Add pasta and cook until tender, 6 to 10 minutes (check the package for recommended cook time). Drain and rinse well under cold water.',
+            'While the pasta cooks, in the bottom of a large bowl, make the dressing. Whisk the red wine vinegar, salt, pepper, oregano, pepperoncini juice (if using), and the olive oil until blended. Add the drained and rinsed pasta to the dressing and mix well.',
+            'Stir in the bell pepper, zucchini, tomatoes, scallions, pepperoncini (if using), olives, parmesan, mozzarella, and the herbs (if using). Taste for seasoning and adjust with salt and pepper as needed. Serve or for the best results, cover and refrigerate at least 30 minutes and up to 5 days',
+        ],
+        notes: [
+        ],
+        uuid: 13
+    },
 ]
 
 

@@ -1,6 +1,6 @@
 import React from "react"
 import {useParams, Link} from "react-router-dom"
-import {meals} from "../data"
+import {meals} from "../data/data"
 import {AiOutlineArrowLeft} from 'react-icons/Ai'
 
 
@@ -26,7 +26,7 @@ export default function RecipeDetails(){
     })
     
     return (
-        <div className="mealDiv">
+        <div className="main">
             <Link 
                 to={pageUrl}
                 className="flex">

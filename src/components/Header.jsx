@@ -4,7 +4,7 @@ import birdy from "../../images/birdy.png"
 
 export default function Header(){
     return (
-        <header className="flex justify-evenly pt-6 pb-2 border-b-4 border-gray-300 font-sans text-xl text-teal-500 font-bold">
+        <header className="flex justify-evenly pt-6 pb-2 border-b-4 border-gray-300 font-sans text-xl text-red-400 font-bold">
             <Link 
                 to="/"
             >

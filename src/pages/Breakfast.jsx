@@ -1,43 +1,42 @@
 import React from "react"
-import {Link} from "react-router-dom"
-import {meals} from "../data"
-import {AiOutlineArrowLeft} from 'react-icons/Ai'
+import { Link } from "react-router-dom"
+import { meals } from "../data/data"
+import { AiOutlineArrowLeft } from 'react-icons/Ai'
 
-export default function Breakfast(){
+export default function Breakfast() {
 
     const recipeRender = meals.map(item => {
-        if(item.mealType === "breakfast"){
+        if (item.mealType === "breakfast") {
             return (
-                <div className="mealBox" key={item.uuid} >
-                    <Link 
-                        to={`../${item.uuid}`} 
-                        key={item.uuid}  
+                <div className="bg-white rounded-md h-80 px-4 pt-4" key={item.uuid} >
+                    <Link
+                        to={`../${item.uuid}`}
+                        key={item.uuid}
                         style={{ textDecoration: 'none' }}
                     >
-                        <img className="mealImg" src={`../images/${item.image}`}/>
-                        <div className="mealDetails">
-                            <h4 className="mealType">{item.mealType}</h4>
-                            <h3>{item.name}</h3>
-                        </div>
+                        <img className="w-60 h-40 rounded-md" src={`../images/${item.image}`} />
+                            <h3 className="text-teal-900 font-bold px-4 w-60 pt-8 text-center text-xl">{item.name}</h3>
                     </Link>
                 </div>
 
             )
         }
     })
-    
+
     return (
-        <div className="mealDiv">
-            <h1>Breakfast Ideas</h1>
-            <Link 
+        <div className="main pt-8 px-10">
+            <Link
                 to="../"
                 className="flex">
-                <AiOutlineArrowLeft />
-                <h3>Go back Home </h3>
+                <AiOutlineArrowLeft className="text-white " />
+                <h3 className="text-white pl-2 font-semibold">Go back Home </h3>
             </Link>
-            <div className="flex">
+            <h1 className=" text-5xl pt-2 pb-8 font-bold text-red-400 text-center">Breakfast Recipes</h1>
+            <div className="flex justify-center gap-10 flex-wrap">
                 {recipeRender}
             </div>
+
+            
         </div>
     )
 }
