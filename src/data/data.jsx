@@ -458,13 +458,26 @@ export const meals = [
     {
         name: "Joghurt Brötchen (Yoghurt Rolls)",
         mealType: "snackbread",
-        mealSearch: ['rolls', 'bread', 'yoghurt', 'raisens'],
+        mealSearch: ['rolls', 'bread', 'yoghurt', 'raisins'],
         isVege : true,
         image:"",
-        alt: "Raisen rolls",
+        alt: "Raisin rolls",
         ingredients: [
+            '275g Flour',
+            '1 pkt / 15ml backing powder',
+            '250 plain joghurt',
+            '4 tbs Milk',
+            '4 tbs Oil',
+            '2 tbs Raisins',
+            '1 Apple'
         ],
         instructions:[
+            'Heat oven to 180 deg',
+            'Mix together yoghurt, oil and milk',
+            'Add flouer and baking powder and knead',
+            'Add chopped apple and raisins',
+            'Using your hands roll 12 small breadrolls and lay on a tray with baking paper',
+            'Bake for about 20 minutes'
         ],
         notes: [
         ],

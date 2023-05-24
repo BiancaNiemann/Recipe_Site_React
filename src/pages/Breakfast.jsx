@@ -14,7 +14,7 @@ export default function Breakfast() {
                         key={item.uuid}
                         style={{ textDecoration: 'none' }}
                     >
-                        <img className="w-60 h-40 rounded-md" src={`../images/${item.image}`} />
+                        <img className="w-60 h-40 rounded-md" src={`../public/images/${item.image}`} />
                             <h3 className="text-teal-900 font-bold px-4 w-60 pt-8 text-center text-xl">{item.name}</h3>
                     </Link>
                 </div>

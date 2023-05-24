@@ -14,7 +14,7 @@ export default function RecipeDetails(){
             pageUrl = `/${item.mealType}`
             return (
                 <div className="mealBox" key={item.uuid} >
-                        <img className="mealImg" src={`../images/${item.image}`}/>
+                        <img className="mealImg" src={`../public/images/${item.image}`}/>
                         <div className="mealDetails">
                             <h4 className="mealType">{item.mealType}</h4>
                             <h3>{item.name}</h3>

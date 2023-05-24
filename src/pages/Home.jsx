@@ -16,7 +16,7 @@ export default function Home(){
                     to={`../${item.uuid}`}  
                     key={item.uuid} 
                     className="flex flex-col items-center bg-white w-4/6 rounded-xl  shadow-lg  hover:shadow-teal-500/50" >
-                        <img className="w-full h-96 rounded-t-xl object-cover" src={`../images/${item.image}`}/>
+                        <img className="w-full h-96 rounded-t-xl object-cover" src={`../public/images/${item.image}`}/>
                         <div className="text-teal-900">
                             <h4 className="capitalize py-6 font-semibold text-center">meal type: {item.mealType}</h4>
                             <h3 className="capitalize py-6 font-extrabold text-center text-4xl">{item.name}</h3>
