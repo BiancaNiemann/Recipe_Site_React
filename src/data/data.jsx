@@ -158,7 +158,7 @@ export const meals = [
         mealType: "breakfast",
         mealSearch: ['oats', 'bananas', 'apple'],
         isVege : true,
-        image:"oats.jpg",
+        image:"oats",
         alt: "Bowls of oats",
         ingredients: [
             '2 cups Oats',
@@ -364,7 +364,7 @@ export const meals = [
         mealType: "breakfast",
         mealSearch: ['muffins', 'healthy', 'kids'],
         isVege : true,
-        image:'Health-kid-muffins.JPG',
+        image:'health-muffins-savoury',
         alt: 'Healthy kids muffins image',
         ingredients: [
             '2 1/2 cups flour',
@@ -396,7 +396,7 @@ export const meals = [
         mealType: "breakfast",
         mealSearch: ['muffins', 'healthy', 'kids'],
         isVege : true,
-        image:'Health-kid-muffins-sweet.JPG',
+        image:'health-muffins-sweet',
         alt: 'Healthy kids muffins image',
         ingredients: [
             '2 1/2 cups flour',
