@@ -2,11 +2,13 @@ import React from "react"
 import { Link } from "react-router-dom"
 import { meals } from "../data/data"
 //import { AiOutlineArrowLeft } from 'react-icons/Ai'
+import testPic from '../../public/images/oats.jpg'
 
 export default function Breakfast() {
 
     const recipeRender = meals.map(item => {
         if (item.mealType === "breakfast") {
+            console.log(item.image)
             return (
                 <div className="bg-white rounded-md h-80 px-4 pt-4" key={item.uuid} >
                     <Link
@@ -14,7 +16,7 @@ export default function Breakfast() {
                         key={item.uuid}
                         style={{ textDecoration: 'none' }}
                     >
-                        <img className="w-60 h-40 rounded-md" src={`../public/images/${item.image}`} />
+                        <img className="w-60 h-40 rounded-md" src={testPic} />
                             <h3 className="text-teal-900 font-bold px-4 w-60 pt-8 text-center text-xl">{item.name}</h3>
                     </Link>
                 </div>
