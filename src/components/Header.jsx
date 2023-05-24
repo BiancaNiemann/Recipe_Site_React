@@ -20,6 +20,11 @@ export default function Header(){
                 Breakfasts
             </NavLink>
             <NavLink
+                to="snackbread"
+            >
+                Snacks & Breads
+            </NavLink>
+            <NavLink
                 to="soup"
             >
                 Soups

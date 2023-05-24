@@ -151,7 +151,7 @@ export const meals = [
             'This dinner really went down well, even though it did not have the finesse of a modern stew. No garlic, no parsley, just good old fashioned comfort food.',
             'If I made chicken stew, the process was much the same, just that cooking time on the chicken pieces was a little shorter. (Never thought of chicken fillets back then, just good old braai chicken pieces). Instead of only water, I did add milk as well, when adding in the Chicken or Tomato soup and sometimes added dried Thyme'
         ],
-        uuid: 4
+        uuid: 15
     },
     {
         name: "Breakfast Oat Bake",
@@ -455,6 +455,21 @@ export const meals = [
         ],
         uuid: 13
     },
+    {
+        name: "Joghurt Brötchen (Yoghurt Rolls)",
+        mealType: "snackbread",
+        mealSearch: ['rolls', 'bread', 'yoghurt', 'raisens'],
+        isVege : true,
+        image:"",
+        alt: "Raisen rolls",
+        ingredients: [
+        ],
+        instructions:[
+        ],
+        notes: [
+        ],
+        uuid: 14
+    }
 ]
 
 

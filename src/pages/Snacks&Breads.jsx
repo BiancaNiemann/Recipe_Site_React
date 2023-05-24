@@ -3,9 +3,9 @@ import {Link} from "react-router-dom"
 import {meals} from "../data/data"
 import {AiOutlineArrowLeft} from 'react-icons/Ai'
 
-export default function Dessert(){
+export default function SnacksAndBreads(){
     const recipeRender = meals.map(item => {
-        if(item.mealType === "dessert"){
+        if(item.mealType === "snackbread"){
             return (
                 <div className="bg-white rounded-md h-80 px-4 pt-4" key={item.uuid} >
                     <Link
@@ -32,13 +32,10 @@ export default function Dessert(){
                 <AiOutlineArrowLeft className="text-white " />
                 <h3 className="text-white pl-2 font-semibold">Go back Home </h3>
             </Link>
-            <h1 className=" text-5xl pt-2 pb-8 font-bold text-red-400 text-center">Dessert Recipes</h1>
+            <h1 className=" text-5xl pt-2 pb-8 font-bold text-red-400 text-center">Snacks & Bread Recipes</h1>
             <div className="flex justify-center gap-10 flex-wrap">
                 {recipeRender}
             </div>
-
-            
         </div>
     )
 }
-

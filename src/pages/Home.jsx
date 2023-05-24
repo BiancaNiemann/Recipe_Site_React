@@ -29,7 +29,7 @@ export default function Home(){
     const hackRender = hacks.map(item => {
         if(item.id === randomHack){
             return (
-                <div className="text-teal-900 px-6 py-8">
+                <div className="text-teal-900 px-6 py-8" key="item.uuid">
                     <h3 className="font-bold pb-8 text-xl text-center">{item.title}</h3>
                     <p className="text-teal-900  text-center">{item.details}</p>
                 </div>

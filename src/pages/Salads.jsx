@@ -37,8 +37,6 @@ export default function Salad(){
         <div className="flex justify-center gap-10 flex-wrap">
             {recipeRender}
         </div>
-
-        
     </div>
     )
 }
