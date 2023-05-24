@@ -1,7 +1,7 @@
 import React from "react"
 import {useParams, Link} from "react-router-dom"
 import {meals} from "../data/data"
-import {AiOutlineArrowLeft} from 'react-icons/Ai'
+//import {AiOutlineArrowLeft} from 'react-icons/Ai'
 
 
 export default function RecipeDetails(){
@@ -30,7 +30,7 @@ export default function RecipeDetails(){
             <Link 
                 to={pageUrl}
                 className="flex">
-            <AiOutlineArrowLeft />
+            
             <h3>Go back to all meals </h3>
             </Link>
             
@@ -40,3 +40,5 @@ export default function RecipeDetails(){
         </div>
     )
 }
+
+//<AiOutlineArrowLeft />
