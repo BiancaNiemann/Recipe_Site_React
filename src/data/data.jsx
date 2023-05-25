@@ -158,7 +158,7 @@ export const meals = [
         mealType: "breakfast",
         mealSearch: ['oats', 'bananas', 'apple'],
         isVege : true,
-        image:"oats",
+        image:"oats.jpg",
         alt: "Bowls of oats",
         ingredients: [
             '2 cups Oats',
@@ -364,7 +364,7 @@ export const meals = [
         mealType: "breakfast",
         mealSearch: ['muffins', 'healthy', 'kids'],
         isVege : true,
-        image:'health-muffins-savoury',
+        image:'Health-kid-muffins.JPG',
         alt: 'Healthy kids muffins image',
         ingredients: [
             '2 1/2 cups flour',
@@ -396,7 +396,7 @@ export const meals = [
         mealType: "breakfast",
         mealSearch: ['muffins', 'healthy', 'kids'],
         isVege : true,
-        image:'health-muffins-sweet',
+        image:'Health-kid-muffins-sweet.JPG',
         alt: 'Healthy kids muffins image',
         ingredients: [
             '2 1/2 cups flour',
@@ -474,10 +474,10 @@ export const meals = [
         instructions:[
             'Heat oven to 180 deg',
             'Mix together yoghurt, oil and milk',
-            'Add flouer and baking powder and knead',
+            'Add flour and baking powder and knead',
             'Add chopped apple and raisins',
             'Using your hands roll 12 small breadrolls and lay on a tray with baking paper',
-            'Bake for about 20 minutes'
+            'Bake for about 20 minutes and check if ready'
         ],
         notes: [
         ],
