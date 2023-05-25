@@ -3,7 +3,7 @@ export const meals = [
         name: "Oma's Mac 'n Cheese",
         mealType: 'main',
         mealSearch: ['pasta', 'cheese'],
-        image:'mac-n-cheese.jpg',
+        image:'/images/mac-n-cheese.jpg',
         alt: "Oma's Mac n Cheese",
         isVege : true,
         ingredients: ['500g Elbow Macaroni (this will easily serve six adults)',
@@ -42,7 +42,7 @@ export const meals = [
         mealType: 'main',
         mealSearch: ['pasta', 'mutton', 'lamb'],
         isVege : false,
-        image:'snail-pasta.jpg',
+        image:'/images/snail-pasta.jpg',
         alt: "Snail Pasta",
         ingredients: [
             '1kg lamb/mutton neck or breast',
@@ -87,7 +87,7 @@ export const meals = [
         mealType: "main",
         mealSearch: ['chicken', 'curry'],
         isVege : false,
-        image:"chicken-curry.jpg",
+        image:"/images/chicken-curry.jpg",
         alt: "Chicken curry & Naan bread ",
         ingredients: [
             '3 tbsp oil',
@@ -123,7 +123,7 @@ export const meals = [
         mealType: "main",
         mealSearch: ["beef", 'stew'],
         isVege : false,
-        image:"beef-stew.jpg",
+        image:"/images/beef-stew.jpg",
         alt: " ",
         ingredients: [
             'Cooking oil for frying (I used Sunflower oil back then)',
@@ -182,7 +182,7 @@ export const meals = [
         mealType: "main",
         mealSearch: ['mince', 'potatoe', 'Cottage Pie'],
         isVege : false,
-        image:"cottage-pie.JPG",
+        image:"/images/cottage-pie.JPG",
         alt: "Cottage Pie in dish",
         ingredients: [
             'Seasoning of choice (pepper, salt, Oregano, Thyme)',
@@ -226,7 +226,7 @@ export const meals = [
         mealType: "soup",
         mealSearch: ['soup', 'beans'],
         isVege : true,
-        image:"minestrone-soup.jpg",
+        image:"/images/minestrone-soup.jpg",
         alt: " ",
         ingredients: [
             '1 cup minced white onion (about 1 small onion)',
@@ -268,7 +268,7 @@ export const meals = [
         mealType: "soup",
         mealSearch: ['soup', 'beans'],
         isVege : true,
-        image:"butternut-soup.jpg",
+        image:"/images/butternut-soup.jpg",
         alt: " ",
         ingredients: [
             '2 large carrots, peeled and grated',
@@ -296,7 +296,7 @@ export const meals = [
         mealType: "dessert",
         mealSearch: ['pudding', 'milk', 'tart'],
         isVege : true,
-        image:"milk-tart.JPG",
+        image:"/images/milk-tart.JPG",
         alt: "Picture of Milk Tart",
         ingredients: [
             '4 1/2 cups Milk',
@@ -334,7 +334,7 @@ export const meals = [
         mealType: "main",
         mealSearch: ['stew', 'pork', 'irish'],
         isVege : false,
-        image:"irish-coddle.JPG",
+        image:"/images/irish-coddle.JPG",
         alt: "Irish Coddle in pot",
         ingredients: [
             '1 large Onion',
@@ -364,7 +364,7 @@ export const meals = [
         mealType: "breakfast",
         mealSearch: ['muffins', 'healthy', 'kids'],
         isVege : true,
-        image:'Health-kid-muffins.JPG',
+        image:'/images/Health-kid-muffins.JPG',
         alt: 'Healthy kids muffins image',
         ingredients: [
             '2 1/2 cups flour',
@@ -396,7 +396,7 @@ export const meals = [
         mealType: "breakfast",
         mealSearch: ['muffins', 'healthy', 'kids'],
         isVege : true,
-        image:'Health-kid-muffins-sweet.JPG',
+        image:'/images/Health-kid-muffins-sweet.JPG',
         alt: 'Healthy kids muffins image',
         ingredients: [
             '2 1/2 cups flour',
@@ -428,7 +428,7 @@ export const meals = [
         mealType: "salad",
         mealSearch: ['pasta', 'salad'],
         isVege : true,
-        image:"simple-pasta-salad.JPG",
+        image:"/images/simple-pasta-salad.JPG",
         alt: "Simple pasta salad image",
         ingredients: [
             '1 pound dried pasta like fusilli, penne, rotini or farfalle (bow tie)',

@@ -24,7 +24,7 @@ export default function RecipeDetails() {
             pageUrl = `/${item.mealType}`
             return (
                 <div className="mealBox flex flex-col items-center text-center text-white w-11/12" key={item.uuid} >
-                    <img className="mealImg w-96 h-72 rounded-2xl object-cover mb-6" src={`../public/images/${item.image}`} alt={item.alt} />
+                    <img className="mealImg w-96 h-72 rounded-2xl object-cover mb-6" src={(item.image)} alt={item.alt} />
                     <div className="mealDetails w-8/12 ">
                         <h4 className="mealType text-sm">Meal Type: {item.mealType}</h4>
                         <h3 className="text-5xl text-red-400 mb-6">{item.name}</h3>
