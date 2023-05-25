@@ -14,8 +14,8 @@ export default function Breakfast() {
                         key={item.uuid}
                         style={{ textDecoration: 'none' }}
                     >
-                        <img className="w-60 h-40 rounded-md" src={(item.image)} alt={item.alt}/>
-                            <h3 className="text-teal-900 font-bold px-4 w-60 pt-8 text-center text-xl">{item.name}</h3>
+                        <img className="w-60 h-40 rounded-md" src={(item.image)} alt={item.alt} />
+                        <h3 className="text-teal-900 font-bold px-4 w-60 pt-8 text-center text-xl">{item.name}</h3>
                     </Link>
                 </div>
 
@@ -28,15 +28,17 @@ export default function Breakfast() {
             <Link
                 to="../"
                 className="flex">
-                
-                <h3 className="text-white pl-2 font-semibold">Go back Home </h3>
+
+                <h3 className="text-white pl-2 font-semibold">                    <i className="fa-solid fa-arrow-left mr-4"
+                    style={{ color: "#ffffff" }}></i>
+                    Go back Home </h3>
             </Link>
             <h1 className=" text-5xl pt-2 pb-8 font-bold text-red-400 text-center">Breakfast Recipes</h1>
             <div className="flex justify-center gap-10 flex-wrap">
                 {recipeRender}
             </div>
 
-            
+
         </div>
     )
 }

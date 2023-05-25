@@ -29,8 +29,11 @@ export default function SnacksAndBreads(){
             <Link
                 to="../"
                 className="flex pl-8">
-                
-                <h3 className="text-white pl-2 font-semibold">Go back Home </h3>
+                <h3 className="text-white pl-2 font-semibold">
+                <i className="fa-solid fa-arrow-left mr-4"
+                        style={{ color: "#ffffff" }}
+                    ></i>
+                    Go back Home </h3>
             </Link>
             <h1 className=" text-5xl pt-2 pb-8 font-bold text-red-400 text-center">Snacks & Bread Recipes</h1>
             <div className="flex justify-center gap-10 flex-wrap">

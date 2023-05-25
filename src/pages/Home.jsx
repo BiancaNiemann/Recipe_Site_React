@@ -147,7 +147,7 @@ export default function Home() {
                         </div>
                     </div>
                     {shopListArray.length <= 0 
-                        ? <p className="text-teal-900 text-center px-6">Save some items here, just click on the item to delete it!</p> 
+                        ? <p className="text-red-400 text-center px-6">Save some items here, just click on the item to delete it!</p> 
                         : shoppingList
                     }
                 </div>

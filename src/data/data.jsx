@@ -361,7 +361,7 @@ export const meals = [
     },
     {
         name: "Healthy Muffins for Kids - savoury",
-        mealType: "breakfast",
+        mealType: "snackbread",
         mealSearch: ['muffins', 'healthy', 'kids'],
         isVege : true,
         image:'/images/Health-kid-muffins.JPG',
@@ -393,7 +393,7 @@ export const meals = [
     },
     {
         name: "Healthy Muffins for Kids - sweet",
-        mealType: "breakfast",
+        mealType: "snackbread",
         mealSearch: ['muffins', 'healthy', 'kids'],
         isVege : true,
         image:'/images/Health-kid-muffins-sweet.JPG',
@@ -482,6 +482,40 @@ export const meals = [
         notes: [
         ],
         uuid: 14
+    },
+    {
+        name: "Easy-lemon-sheet-cake",
+        mealType: "dessert",
+        mealSearch: ["tarts", "milk", "pastry"],
+        isVege : true,
+        image:"/images/lemon-cake.JPG",
+        alt: "Lemon cake slice",
+        ingredients: [
+            "1 cup unsalted butter, room temperature",
+            "1 cup granulated sugar",
+            "4 large eggs",
+            "2 lemons, zest and juice",
+            "1 tsp vanilla extract",
+            "2 cups all-purpose flour",
+            "2 tsp baking powder",
+            "1/4 tsp salt",
+            "1 1/2 cup icing sugar"
+        ],
+        instructions:[
+            "Preheat the oven to 180°C. Spray a 9x13 inch baking pan with non-stick spray or grease with butter and line with a sheet of baking paper.",
+            "In the bowl of a stand mixer fitted with the paddle attachment, combine room temperature butter and sugar. Beat at medium speed until light and fluffy, about 2-3 minutes.",
+            "Add eggs, one at a time and beat until just combined after adding each egg",
+            "Add all the lemon zest, the juice of one lemon, and vanilla extract. Whisk until combined",
+            "In a small bowl combine the flour, baking powder, and salt",
+            "Add the dry ingredients to the bowl of the stand mixer, beat until combined",
+            "Pour the cake batter into the pan and bake for 20 minutes or until a toothpick inserted in the center comes out clean",
+            "Poke holes into the cake with a toothpick while it's still warm",
+            "In a bowl combine the powdered sugar and as much of the remaining lemon juice until the powdered sugar is incorporated and the consistency is thick but still runny",
+            "Use a silicone spatula to spread the glaze on the warm cake. Let the cake rest until the glaze is set. This cake tastes even better after resting for a day at room temperature"
+        ],
+        notes: [
+        ],
+        uuid: 15
     }
 ]
 
