@@ -158,7 +158,7 @@ export const meals = [
         mealType: "breakfast",
         mealSearch: ['oats', 'bananas', 'apple'],
         isVege : true,
-        image:"oats.jpg",
+        image:"../public/images/oats.jpg",
         alt: "Bowls of oats",
         ingredients: [
             '2 cups Oats',

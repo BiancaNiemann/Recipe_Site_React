@@ -62,8 +62,9 @@ export default function Home() {
                     className="text-teal-900 px-6 py-8"
                     key="item.uuid"
                 >
-                    <h3 className="font-bold pb-8 text-xl text-center">{item.title}</h3>
-                    <p className="text-teal-900  text-center">{item.details}</p>
+                    <h3 className="font-bold pb-4 text-xl text-center">{item.title}</h3>
+                    <p className="text-teal-900 text-center">{item.details}</p>
+                    <p className="text-red-400 text-center">(Click for more)</p>
                 </div>
             )
         }
@@ -109,7 +110,7 @@ export default function Home() {
                     className="bg-white m-6 h-80 rounded-2xl pb-4 flex flex-col justify-between cursor-pointer"
                     onClick={nextHack}>
                     {hackRender}
-                    <div className="flex gap-x-1 justify-center">
+                    <div className="flex gap-x-1 justify-center mt-0">
                         <div
                             className="w-4 h-4 rounded-full"
                             style={handyHackDot === 1 ? { backgroundColor: "rgb(45 212 191)" } : { backgroundColor: "rgb(19 78 74)" }}
@@ -145,7 +146,10 @@ export default function Home() {
                         >Save
                         </div>
                     </div>
-                    {shoppingList}
+                    {shopListArray.length <= 0 
+                        ? <p className="text-teal-900 text-center px-6">Save some items here, just click on the item to delete it!</p> 
+                        : shoppingList
+                    }
                 </div>
             </div>
         </div>
