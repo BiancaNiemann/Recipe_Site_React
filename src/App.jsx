@@ -16,6 +16,7 @@ import MainMeals from "./pages/MainMeals"
 import Dessert from "./pages/Desserts"
 import RecipeDetails from "./pages/RecipeDetail"
 import SnacksAndBreads from "./pages/Snacks&Breads";
+import Search from "./pages/Search";
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<Layout />} >
@@ -27,6 +28,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="main" element={<MainMeals />} />
     <Route path="dessert" element={<Dessert />} />
     <Route path=":userId" element={<RecipeDetails/>} />
+    <Route path="searchedItem" element={<Search />} />
   </Route>
 
 ))

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import { meals } from "../data/data"
 import { hacks } from "../data/handyhackdata"
 import { v4 as uuidv4 } from 'uuid'
+import SearchBar from "../components/SearchBar"
 
 export default function Home() {
     const [handyHackDot, setHandyHackDot] = useState(1)
@@ -44,7 +45,7 @@ export default function Home() {
                 <Link
                     to={`../${item.uuid}`}
                     key={item.uuid}
-                    className="flex flex-col items-center bg-white w-4/6 rounded-xl  shadow-lg  hover:shadow-teal-500/50" >
+                    className="flex flex-col items-center bg-white w-7/8 rounded-xl  shadow-lg  hover:shadow-teal-500/50" >
                     <img className="w-full h-96 rounded-t-xl object-cover" src={(item.image)} alt={item.alt} />
                     <div className="text-teal-900">
                         <h4 className="capitalize py-6 font-semibold text-center">meal type: {item.mealType}</h4>
@@ -99,15 +100,16 @@ export default function Home() {
     })
 
     return (
-        <div className=" flex main">
-            <div className="border-r-4 border-gray-300 flex flex-col items-center w-4/6">
+        <div className=" flex flex-col lg:flex-row main">
+            <div className="lg:border-r-4 border-gray-300 flex flex-col items-center lg:w-7/12">
+            <SearchBar />
                 <h3 className="text-center text-3xl py-8 font-bold text-red-400">Random recipe picker</h3>
                 {recipeRender}
             </div>
-            <div className="w-2/6">
+            <div className="lg:w-5/12 content-center flex flex-col items-center">
                 <h4 className="text-center text-3xl pt-8 pb-2 font-bold text-red-400">Handy Hacks</h4>
                 <div
-                    className="bg-white m-6 h-80 rounded-2xl pb-4 flex flex-col justify-between cursor-pointer"
+                    className="bg-white m-6 h-80 rounded-2xl pb-4 flex flex-col justify-between cursor-pointer w-4/5"
                     onClick={nextHack}>
                     {hackRender}
                     <div className="flex gap-x-1 justify-center mt-0">
@@ -129,7 +131,7 @@ export default function Home() {
                     </div>
                 </div>
                 <h4 className="text-center text-3xl pt-4-8 font-bold text-red-400">Shopping List</h4>
-                <div className="m-6 h-96 bg-white rounded-2xl p-4">
+                <div className="m-6 h-fit bg-white rounded-2xl p-4 w-4/5">
                     <div className="flex gap-2 mb-4">
                         <input
                             type="text"
@@ -147,7 +149,7 @@ export default function Home() {
                         </div>
                     </div>
                     {shopListArray.length <= 0 
-                        ? <p className="text-red-400 text-center px-6">Save some items here, just click on the item to delete it!</p> 
+                        ? <p className="text-red-400 text-center px-6">Save some items here, and then just click on the item to delete it!</p> 
                         : shoppingList
                     }
                 </div>

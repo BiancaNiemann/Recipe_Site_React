@@ -2,7 +2,7 @@ export const meals = [
     {
         name: "Oma's Mac 'n Cheese",
         mealType: 'main',
-        mealSearch: ['pasta', 'cheese'],
+        mealSearch: ['pasta', 'cheese', 'macaroni', 'mushrooms', 'sweetcorn', 'bacon', 'onions'],
         image:'/images/mac-n-cheese.jpg',
         alt: "Oma's Mac n Cheese",
         isVege : true,
@@ -40,7 +40,7 @@ export const meals = [
     {
         name: "Dinky's Snail shaped pasta with tomato and Lamb",
         mealType: 'main',
-        mealSearch: ['pasta', 'mutton', 'lamb'],
+        mealSearch: ['pasta', 'mutton', 'lamb', 'tomato', 'stew', 'carrots'],
         isVege : false,
         image:'/images/snail-pasta.jpg',
         alt: "Snail Pasta",
@@ -85,7 +85,7 @@ export const meals = [
     {
         name: "80's Chicken Curry",
         mealType: "main",
-        mealSearch: ['chicken', 'curry'],
+        mealSearch: ['chicken', 'curry', 'rajah', 'garlic'],
         isVege : false,
         image:"/images/chicken-curry.jpg",
         alt: "Chicken curry & Naan bread ",
@@ -121,7 +121,7 @@ export const meals = [
     {
         name: "80's Beef Stew",
         mealType: "main",
-        mealSearch: ["beef", 'stew'],
+        mealSearch: ["beef", 'stew', 'tomato', 'potatoe'],
         isVege : false,
         image:"/images/beef-stew.jpg",
         alt: " ",
@@ -180,7 +180,7 @@ export const meals = [
     {
         name: "Dinky's Cottage Pie",
         mealType: "main",
-        mealSearch: ['mince', 'potatoe', 'Cottage Pie'],
+        mealSearch: ['mince', 'potatoe', 'Cottage Pie', 'pumpkin', 'potatoe'],
         isVege : false,
         image:"/images/cottage-pie.JPG",
         alt: "Cottage Pie in dish",
@@ -224,7 +224,7 @@ export const meals = [
     {
         name: "Super simple minestrone soup",
         mealType: "soup",
-        mealSearch: ['soup', 'beans'],
+        mealSearch: ['soup', 'beans', 'zuchinni', 'carrot', 'spinach', 'pasta'],
         isVege : true,
         image:"/images/minestrone-soup.jpg",
         alt: " ",
@@ -266,7 +266,7 @@ export const meals = [
     {
         name: "Sweet Potato & Butternut Soup",
         mealType: "soup",
-        mealSearch: ['soup', 'beans'],
+        mealSearch: ['soup', 'beans', 'sweet potatoe', 'carrots', 'butternut'],
         isVege : true,
         image:"/images/butternut-soup.jpg",
         alt: " ",
@@ -294,7 +294,7 @@ export const meals = [
     {
         name: "Uncle Roly's yummy Milk Tart(Old Style)",
         mealType: "dessert",
-        mealSearch: ['pudding', 'milk', 'tart'],
+        mealSearch: ['pudding', 'milk', 'tart', 'sugar'],
         isVege : true,
         image:"/images/milk-tart.JPG",
         alt: "Picture of Milk Tart",
@@ -332,7 +332,7 @@ export const meals = [
     {
         name: "Netties Irish Coddle",
         mealType: "main",
-        mealSearch: ['stew', 'pork', 'irish'],
+        mealSearch: ['stew', 'pork', 'irish', 'sausage', 'bacon'],
         isVege : false,
         image:"/images/irish-coddle.JPG",
         alt: "Irish Coddle in pot",
@@ -362,7 +362,7 @@ export const meals = [
     {
         name: "Healthy Muffins for Kids - savoury",
         mealType: "snackbread",
-        mealSearch: ['muffins', 'healthy', 'kids'],
+        mealSearch: ['muffins', 'healthy', 'kids', 'zucchini', 'cheese', 'muffin', 'health'],
         isVege : true,
         image:'/images/Health-kid-muffins.JPG',
         alt: 'Healthy kids muffins image',
@@ -394,7 +394,7 @@ export const meals = [
     {
         name: "Healthy Muffins for Kids - sweet",
         mealType: "snackbread",
-        mealSearch: ['muffins', 'healthy', 'kids'],
+        mealSearch: ['muffins', 'healthy', 'kids', 'peanut', 'jam', 'muffin', 'peanuts'],
         isVege : true,
         image:'/images/Health-kid-muffins-sweet.JPG',
         alt: 'Healthy kids muffins image',
@@ -426,7 +426,7 @@ export const meals = [
     {
         name: "Simple Pasta Salad",
         mealType: "salad",
-        mealSearch: ['pasta', 'salad'],
+        mealSearch: ['pasta', 'salad', 'zucchini', 'tomatoes'],
         isVege : true,
         image:"/images/simple-pasta-salad.JPG",
         alt: "Simple pasta salad image",
@@ -458,7 +458,7 @@ export const meals = [
     {
         name: "Joghurt Brötchen (Yoghurt Rolls)",
         mealType: "snackbread",
-        mealSearch: ['rolls', 'bread', 'yoghurt', 'raisins'],
+        mealSearch: ['rolls', 'bread', 'yoghurt', 'raisins', 'breadroll', 'breadrolls'],
         isVege : true,
         image:"",
         alt: "Raisin rolls",
@@ -486,7 +486,7 @@ export const meals = [
     {
         name: "Easy-lemon-sheet-cake",
         mealType: "dessert",
-        mealSearch: ["tarts", "milk", "pastry"],
+        mealSearch: ["tarts", "milk", "pastry", 'lemon'],
         isVege : true,
         image:"/images/lemon-cake.JPG",
         alt: "Lemon cake slice",
@@ -516,6 +516,22 @@ export const meals = [
         notes: [
         ],
         uuid: 15
+    },
+    {
+        name: "Trinchado",
+        mealType: "main",
+        mealSearch: ["beef", "pork", "stew", "red wine"],
+        isVege : false,
+        image:"/images/Trinchado.JPG",
+        alt: "Beef Trinchado",
+        ingredients: [
+            "2 Tbs Worchester sauce"
+        ],
+        instructions:[
+        ],
+        notes: [
+        ],
+        uuid: 16
     }
 ]
 

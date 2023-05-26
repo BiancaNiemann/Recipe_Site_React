@@ -4,16 +4,17 @@ import birdy from "../../public/images/birdy.png"
 
 export default function Header(){
     return (
-        <header className="flex justify-evenly pt-6 pb-2 border-b-4 border-gray-300 font-sans text-xl text-red-400 font-bold">
+        <header className="grid lg:flex justify-evenly pt-6 pb-2 border-b-4 border-gray-300 font-sans text-xl text-red-400 font-bold">
             <Link 
                 to="/"
             >
                 <div className="flex">
                     <img src={birdy} alt="birdy logo" className="w-16"/>
-                    <h2>Kitchen Shares</h2>
+                    <h2 className="text-4xl">Kitchen Shares</h2>
                 </div>
                 
             </Link>
+            <div className="flex gap-5 lg:gap-10 flex-col lg:flex-row pl-20 pt-3">
             <NavLink
                 to="breakfast"
             >
@@ -44,6 +45,8 @@ export default function Header(){
             >
                 Desserts
             </NavLink>
+            </div>
+
         </header>
     )
 }

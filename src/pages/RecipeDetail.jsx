@@ -32,16 +32,16 @@ export default function RecipeDetails() {
             return (
                 <div className="mealBox flex flex-col items-center text-center text-white w-11/12" key={item.uuid} >
                     <img className="mealImg w-96 h-72 rounded-2xl object-cover mb-6" src={(item.image)} alt={item.alt} />
-                    <div className="mealDetails w-8/12 ">
+                    <div className="mealDetails lg:w-8/12 ">
                         <h4 className="mealType text-sm">Meal Type: {item.mealType}</h4>
                         <h3 className="text-5xl text-red-400 mb-6">{item.name}</h3>
                         <div className="bg-white pb-6 pt-6 rounded-2xl">
                             <h5 className="text-2xl mb-6 text-red-400 font-semibold">Ingredients</h5>
-                            <p className="text-left ml-24 mb-6 text-teal-900">{ingredients}</p>
+                            <p className="text-left ml-5 lg:ml-24 mb-6 text-teal-900">{ingredients}</p>
                             <h5 className="text-2xl mb-6 text-red-400 font-semibold">Instructions</h5>
-                            <p className="text-left ml-16 mr-16 text-teal-900">{instructions}</p>
+                            <p className="text-left ml-5 lg:ml-16 mr-16 text-teal-900">{instructions}</p>
                             <h5 className="text-2xl mb-6 text-red-400 font-semibold">Notes</h5>
-                            <p className="text-left ml-16 mr-16 text-teal-900">{notes}</p>
+                            <p className="text-left ml-5 lg:ml-16 mr-16 text-teal-900">{notes}</p>
                         </div>
                     </div>
                 </div>
