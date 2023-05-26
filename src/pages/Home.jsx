@@ -45,11 +45,11 @@ export default function Home() {
                 <Link
                     to={`../${item.uuid}`}
                     key={item.uuid}
-                    className="flex flex-col items-center bg-white w-7/8 rounded-xl  shadow-lg  hover:shadow-teal-500/50" >
+                    className="flex flex-col items-center bg-white rounded-xl  shadow-lg hover:shadow-teal-500/50 w-8/12" >
                     <img className="w-full h-96 rounded-t-xl object-cover" src={(item.image)} alt={item.alt} />
-                    <div className="text-teal-900">
-                        <h4 className="capitalize py-6 font-semibold text-center">meal type: {item.mealType}</h4>
-                        <h3 className="capitalize py-6 font-extrabold text-center text-4xl">{item.name}</h3>
+                    <div className="text-teal-900 flex flex-col items-center">
+                        <h4 className="py-6 font-semibold text-center">meal type: {item.mealType}</h4>
+                        <h3 className="py-6 font-extrabold text-center text-4xl w-5/6">{item.name}</h3>
                     </div>
                 </Link>
             )
@@ -76,14 +76,14 @@ export default function Home() {
     }
 
     function addToList() {
-        if(listItem.length > 0){
+        if (listItem.length > 0) {
             setShopListArray(prevArray => [...prevArray, { itemName: listItem, itemId: uuidv4() }])
             setListItem('')
         }
     }
 
-    function deleteFromList(e){
-        const newShopArray = shopListArray.filter((item)=> item.itemId !== e)
+    function deleteFromList(e) {
+        const newShopArray = shopListArray.filter((item) => item.itemId !== e)
         setShopListArray(newShopArray)
     }
 
@@ -92,7 +92,7 @@ export default function Home() {
             <li
                 className="text-teal-900 cursor-pointer"
                 key={item.itemId}
-                onClick={()=>deleteFromList(item.itemId)}
+                onClick={() => deleteFromList(item.itemId)}
             >
                 {item.itemName}
             </li>
@@ -100,16 +100,16 @@ export default function Home() {
     })
 
     return (
-        <div className=" flex flex-col lg:flex-row main">
+        <div className=" flex flex-col lg:flex-row main items-center lg:items-stretch">
             <div className="lg:border-r-4 border-gray-300 flex flex-col items-center lg:w-7/12">
-            <SearchBar />
+                <SearchBar />
                 <h3 className="text-center text-3xl py-8 font-bold text-red-400">Random recipe picker</h3>
                 {recipeRender}
             </div>
             <div className="lg:w-5/12 content-center flex flex-col items-center">
                 <h4 className="text-center text-3xl pt-8 pb-2 font-bold text-red-400">Handy Hacks</h4>
                 <div
-                    className="bg-white m-6 h-80 rounded-2xl pb-4 flex flex-col justify-between cursor-pointer w-4/5"
+                    className="bg-white m-6 h-96 lg:h-80 rounded-2xl pb-4 flex flex-col justify-between cursor-pointer w-4/5"
                     onClick={nextHack}>
                     {hackRender}
                     <div className="flex gap-x-1 justify-center mt-0">
@@ -148,8 +148,8 @@ export default function Home() {
                         >Save
                         </div>
                     </div>
-                    {shopListArray.length <= 0 
-                        ? <p className="text-red-400 text-center px-6">Save some items here, and then just click on the item to delete it!</p> 
+                    {shopListArray.length <= 0
+                        ? <p className="text-red-400 text-center px-6">Save some items here, and then just click on the item to delete it!</p>
                         : shoppingList
                     }
                 </div>
