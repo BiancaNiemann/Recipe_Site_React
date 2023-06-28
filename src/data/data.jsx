@@ -536,7 +536,15 @@ export const meals = [
 ]
 
 
-    /*{
+    /*
+    ideas:
+    banana muffins
+    Croatian rice meal
+    Crumpets
+    
+    
+    
+    {
         name: "",
         mealType: "",
         mealSearch: [],
