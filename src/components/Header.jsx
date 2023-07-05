@@ -1,6 +1,6 @@
 import React from "react"
 import {Link, NavLink} from "react-router-dom"
-import birdy from "../../public/images/birdy.png"
+import birdy from "../images/birdy.png"
 
 export default function Header(){
     return (
