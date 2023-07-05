@@ -534,19 +534,62 @@ export const meals = [
         uuid: 16
     },
     {
-        name: "Lemon sheet cake",
-        mealType: "",
-        mealSearch: [],
-        isVege : "",
+        name: "Käse Brötchen",
+        mealType: "snackbread",
+        mealSearch: ["cheese", "rolls"],
+        isVege : true,
         image:"",
-        alt: " ",
+        alt: "Cheese breadroll image",
         ingredients: [
+            "225ml Milk",
+            "450gr Flour",
+            "15ml dry yeast",
+            "1 1/2 tsp salt",
+            "1 tsp Zucker",
+            "1 Egg",
+            "150gr Creme Fraiche",
+            "100gr grated cheese",
+            "1 Egg for tops",
+            "100gr grated cheese for top"
         ],
         instructions:[
+            "Mix Flour and Yeast and then add all other ingredients except cheese and knead with a dough hook on a low settingbriefly and then on high for 5 minutes",
+            "Knead the cheese in last and cover and leave in a warm place till it has risen",
+            "Warm oven to 180 deg",
+            "Knead the dough briefly on a floured surface, shape in to a roll and cut 10 equal pieces, then shape each piece into a bun and coat with egg and top off with cheese.",
+            "Leave rolls to rise for 15 minutes",
+            "Bake for about 15 minutes"
         ],
         notes: [
         ],
-        uuid: uuidv4()
+        uuid: 17
+    },
+    {
+        name: "Knoblauch Aufstrich",
+        mealType: "snackbread",
+        mealSearch: ['garlic', 'dip', 'spread'],
+        isVege : true,
+        image:"",
+        alt: "Garlic dip",
+        ingredients: [
+            "1 große Knoblauchknolle",
+            "3 zweige Thymian",
+            "1 El Oliveöl",
+            "1 El Zitronensaft",
+            "1 Dose weiße Bohnen",
+            "Salz und Pfeffer"
+        ],
+        instructions:[
+            "Ofen 200 Grad vorheizen",
+            "Obere Spitze der Knoblauch knolle ca 1c breit abschneiden",
+            "Thymian abbrausen, trockenschütteln, dann die Blättchen von der Stangeln abziehen und zusammen mit öl und Zitronen zu einer Marinade mischen",
+            "Knoblauch mit der Schnittkante in der mArinade tauschen und unschlißend mit der schnittkante nach oben in eine kleine ofenfeste Form setze, übrige Marinade darüber täufeln, alles mit Backpapier abdecken und auf mittlerer schiene 30 min backen",
+            "Weiße Bohnen in ein Sieb abschütten und abtropfen lassen",
+            "Gebackenen Knoblauch kurz auskühlen, anschließend alle Zehen vorsichtig herausdrucken und zusammen mit die Bohnen zu einem cremigen Aufstrich püriern"
+        ],
+        notes: [
+        ],
+        uuid: 18
     },
 ]
 
