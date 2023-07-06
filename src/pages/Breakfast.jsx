@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import { meals } from "../data/data"
-//import { AiOutlineArrowLeft } from 'react-icons/Ai'
 
 export default function Breakfast() {
 
@@ -28,17 +27,16 @@ export default function Breakfast() {
             <Link
                 to="../"
                 className="flex">
-
-                <h3 className="text-white pl-2 font-semibold">                    <i className="fa-solid fa-arrow-left mr-4"
-                    style={{ color: "#ffffff" }}></i>
+                <h3 className="text-white pl-2 font-semibold">
+                    <i className="fa-solid fa-arrow-left mr-4"
+                        style={{ color: "#ffffff" }}
+                    ></i>
                     Go back Home </h3>
             </Link>
             <h1 className=" text-5xl pt-2 pb-8 font-bold text-red-400 text-center">Breakfast Recipes</h1>
             <div className="flex justify-center gap-10 flex-wrap">
                 {recipeRender}
             </div>
-
-
         </div>
     )
 }

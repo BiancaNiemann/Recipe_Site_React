@@ -1,10 +1,12 @@
 import React from "react"
 import {Link, NavLink} from "react-router-dom"
 import birdy from "../images/birdy.png"
+import IsVege from "./IsVege"
 
 export default function Header(){
     return (
-        <header className="grid lg:flex justify-evenly pt-6 pb-2 border-b-4 border-gray-300 font-sans text-xl text-red-400 font-bold">
+        <div className="border-b-4 border-gray-300 ">
+        <header className="grid lg:flex justify-evenly pt-6 pb-2  font-sans text-xl text-red-400 font-bold">
             <Link 
                 to="/"
             >
@@ -46,7 +48,9 @@ export default function Header(){
                 Desserts
             </NavLink>
             </div>
-
         </header>
+         <IsVege />
+        </div>
+
     )
 }
