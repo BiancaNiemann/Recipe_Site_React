@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const IsVege = () => {
 
-    const [isVeg, setIsVeg] = useState(true)
+    const [isVeg, setIsVeg] = useState(false)
 
     function handleVege() {
         setIsVeg(prevVeg => !prevVeg)
@@ -10,28 +11,31 @@ const IsVege = () => {
 
     return (
         <div className="flex justify-center mb-4">
-            <div className="w-12 h-6 bg-red-400 mr-4 rounded-xl flex" >
+            <div 
+                className="w-12 h-6 bg-red-400 mr-4 rounded-xl flex" >
                 {!isVeg ?
                     <div
                         className="w-6 h-6 bg-gray-600 rounded-xl"
                     >
                     </div> :
-                    <div
+                    <Link
+                        state={{ select : "no"}}
                         onClick={handleVege}
                         className="w-6 h-6 bg-red-400 rounded-xl"
                     >
-                    </div>
+                    </Link>
                 }
                 {isVeg ?
                     <div
                         className="w-6 h-6 bg-gray-600 rounded-xl"
                     >
                     </div> :
-                    <div
+                    <Link
+                        state={{ select : "yes"}}
                         onClick={handleVege}
                         className="w-6 h-6 bg-red-400 rounded-xl"
                     >
-                    </div>
+                    </Link>
                 }
             </div>
             <h4 className="text-gray-600 font-bold">Show only Vegetarian recipes</h4>

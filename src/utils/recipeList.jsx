@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react"
-import { Link, useLocation, useParams } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import { meals } from "../data/data"
 
-export default function MainMeals() {
+export default function recipeList() {
 
     const location = useLocation()
-    const params = useParams()
-    console.log(params)
+
     const [isVege, setIsVege] = useState("no")
     
      useEffect(()=> {
@@ -17,6 +16,8 @@ export default function MainMeals() {
            setIsVege(select)
         }
      }, [location])
+
+    console.log(isVege)
 
     const recipeRender = meals.map(item => {
         if(isVege === 'no' || isVege === undefined) {
@@ -79,4 +80,3 @@ export default function MainMeals() {
         </div>
     )
 }
-

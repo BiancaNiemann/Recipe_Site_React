@@ -31,7 +31,6 @@ const HandyHacks = () => {
                 >
                     <h3 className="font-bold pb-4 text-xl text-center">{item.title}</h3>
                     <p className="text-teal-900 text-center">{item.details}</p>
-                    <p className="text-red-400 text-center mt-6">(Click for next hack)</p>
                 </div>
             )
         }
