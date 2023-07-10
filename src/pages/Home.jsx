@@ -2,7 +2,6 @@ import HandyHacks from "../components/HandyHacks"
 import RandomRecipe from "../components/RandomRecipe"
 import ShoppingLIst from "../components/ShoppingLIst"
 import SearchBar from "../components/SearchBar"
-import IsVege from "../components/IsVege"
 
 export default function Home() {
     return (

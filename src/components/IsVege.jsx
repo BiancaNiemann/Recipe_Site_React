@@ -19,7 +19,7 @@ const IsVege = () => {
                     >
                     </div> :
                     <Link
-                        state={{ select : "no"}}
+                        state={{ select : isVeg}}
                         onClick={handleVege}
                         className="w-6 h-6 bg-red-400 rounded-xl"
                     >
@@ -31,14 +31,14 @@ const IsVege = () => {
                     >
                     </div> :
                     <Link
-                        state={{ select : "yes"}}
+                        state={{ select : isVeg}}
                         onClick={handleVege}
                         className="w-6 h-6 bg-red-400 rounded-xl"
                     >
                     </Link>
                 }
             </div>
-            <h4 className="text-gray-600 font-bold">Show only Vegetarian recipes</h4>
+            <h4 className="text-white font-bold">Show only Vegetarian recipes</h4>
         </div>
     );
 }
