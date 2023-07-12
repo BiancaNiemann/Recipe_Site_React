@@ -3,17 +3,17 @@ export const meals = [
         name: "Oma's Mac 'n Cheese",
         mealType: 'main',
         mealSearch: ['pasta', 'cheese', 'macaroni', 'mushrooms', 'sweetcorn', 'bacon', 'onions'],
-        image:'/images/mac-n-cheese.jpg',
+        image: '/images/mac-n-cheese.jpg',
         alt: "Oma's Mac n Cheese",
-        isVege : true,
+        isVege: true,
         ingredients: ['500g Elbow Macaroni (this will easily serve six adults)',
             '1 x tin of canned button mushrooms',
             '1 x tin of creamy mushroom soup',
             '1 x tin of creamed sweetcorn',
             '1 x 250g streaky bacon, cut into small slices',
             '2 x onions (medium) chopped into a fine dice'
-            ],
-        instructions:[
+        ],
+        instructions: [
             'Cook off the pasta in boiling and salted water until cooked to al dente and not too soft',
             'Strain in colander, toss a little oil into the pasta to keep the pieces separate',
             'Leave one side',
@@ -41,8 +41,8 @@ export const meals = [
         name: "Dinky's Snail shaped pasta with tomato and Lamb",
         mealType: 'main',
         mealSearch: ['pasta', 'mutton', 'lamb', 'tomato', 'stew', 'carrots'],
-        isVege : false,
-        image:'/images/snail-pasta.jpg',
+        isVege: false,
+        image: '/images/snail-pasta.jpg',
         alt: "Snail Pasta",
         ingredients: [
             '1kg lamb/mutton neck or breast',
@@ -60,13 +60,13 @@ export const meals = [
             '2 beef stock cubes dissolved in 750ml boiling water',
             '1 x 500g Snail shaped pasta'
         ],
-        instructions:[
+        instructions: [
             'Heat the olive oil in a large pot over medium-high heat. Add in the meat and cook for 2 to 3 minutes per side, stirring, until all sides are lightly browned. Transfer the lamb to a plate and set aside',
             'Lower the heat to medium and add the carrot, celery, onion, chopped garlic, salt, pepper, thyme and rosemary. Allow to cook for 8-10 minutes until the vegetables have softened and the onions are translucent',
             'Add the tomatoes and stock. Cook for 5 minutes.',
             'Add in the lamb and stir to combine. Now set the stove top to lowest heat and let this mix braise away ever so slowly. Add liquid stock or water if it gets too dry.  Depending on the meat cut, this will take at least an hour, if not more. (This step could be done in a 175 Deg C oven, centre shelf, in a casserole dish, for 3 hours)',
             'Use a slotted spoon to remove all the meat once it is good and tender ',
-            'Using a potato masher, mash the vegetables in the sauce so they break down into smaller pieces, thickening the sauce.',    
+            'Using a potato masher, mash the vegetables in the sauce so they break down into smaller pieces, thickening the sauce.',
             'Toward the end of the ragout cooking time, cook the pasta in salted water until al dente and then place in a colander over the cooking pot. Sprinkle with some olive oil and agitate to separate noodles. Set aside.',
             'Now it is time to finish off that comfort food dinner. Combine the ragout, meat and snail  shaped pasta in a large casserole and stir to combine',
             'The ragout sauce should be thick, but thin enough to coat the pasta beautifully.',
@@ -86,8 +86,8 @@ export const meals = [
         name: "80's Chicken Curry",
         mealType: "main",
         mealSearch: ['chicken', 'curry', 'rajah', 'garlic'],
-        isVege : false,
-        image:"/images/chicken-curry.jpg",
+        isVege: false,
+        image: "/images/chicken-curry.jpg",
         alt: "Chicken curry & Naan bread ",
         ingredients: [
             '3 tbsp oil',
@@ -103,7 +103,7 @@ export const meals = [
             'salt and pepper to taste',
             'A tbsp or so of vinegar '
         ],
-        instructions:[
+        instructions: [
             'Pour the oil into a medium-sized pot over medium heat. Sauté the garlic until browned. Add the onions. Sauté the chicken pieces and let brown on all sides.',
             'Sauté the garlic until browned. Add the onions. ',
             'Sauté the chicken pieces and let brown on all sides.',
@@ -122,8 +122,8 @@ export const meals = [
         name: "80's Beef Stew",
         mealType: "main",
         mealSearch: ["beef", 'stew', 'tomato', 'potatoe'],
-        isVege : false,
-        image:"/images/beef-stew.jpg",
+        isVege: false,
+        image: "/images/beef-stew.jpg",
         alt: " ",
         ingredients: [
             'Cooking oil for frying (I used Sunflower oil back then)',
@@ -139,7 +139,7 @@ export const meals = [
             'Round about 1Kg of stewing beef, Chuck, or Blade',
             '1 Beef or Oxtail stock cube ( I have even used a chicken stock cube)'
         ],
-        instructions:[
+        instructions: [
             'Heat the oil in a pot and fry the onion and green pepper until soft',
             'Add the Rajah Medium Curry Powder, spices and tomato and fry for about two minutes or so',
             'Add the beef and fry until well browned',
@@ -157,8 +157,8 @@ export const meals = [
         name: "Breakfast Oat Bake",
         mealType: "breakfast",
         mealSearch: ['oats', 'bananas', 'apple'],
-        isVege : true,
-        image:"/images/oats.jpg",
+        isVege: true,
+        image: "/images/oats.jpg",
         alt: "Bowls of oats",
         ingredients: [
             '2 cups Oats',
@@ -167,7 +167,7 @@ export const meals = [
             '2 ripe bananas mashed',
             '1 apple grated'
         ],
-        instructions:[
+        instructions: [
             'Mix all ingredients together',
             "bake at 180 deg for 30min"
 
@@ -181,8 +181,8 @@ export const meals = [
         name: "Dinky's Cottage Pie",
         mealType: "main",
         mealSearch: ['mince', 'potatoe', 'Cottage Pie', 'pumpkin', 'potatoe'],
-        isVege : false,
-        image:"/images/cottage-pie.JPG",
+        isVege: false,
+        image: "/images/cottage-pie.JPG",
         alt: "Cottage Pie in dish",
         ingredients: [
             'Seasoning of choice (pepper, salt, Oregano, Thyme)',
@@ -198,7 +198,7 @@ export const meals = [
             'Blob of Butter',
             'Grated nutmeg',
         ],
-        instructions:[
+        instructions: [
             'Mom always used a good grade of beef mince, and never made Shepherds Pie using mutton mince.',
             'She used mash rather than sliced potatoes as a topping, which we all preferred',
             'When pumpkin was in season, Mom would add it in between the mince and the potato',
@@ -225,8 +225,8 @@ export const meals = [
         name: "Super simple minestrone soup",
         mealType: "soup",
         mealSearch: ['soup', 'beans', 'zuchinni', 'carrot', 'spinach', 'pasta'],
-        isVege : true,
-        image:"/images/minestrone-soup.jpg",
+        isVege: true,
+        image: "/images/minestrone-soup.jpg",
         alt: " ",
         ingredients: [
             '1 cup minced white onion (about 1 small onion)',
@@ -250,7 +250,7 @@ export const meals = [
             '1/2 cup small shell pasta',
 
         ],
-        instructions:[
+        instructions: [
             'Heat three tablespoons of olive oil over medium heat in a large soup pot.',
             'Saute onion, celery, garlic, green beans, and zucchini in the oil for 5 minutes or until onions begin to turn translucent.',
             'Add vegetable broth to pot, plus drained tomatoes, beans, carrot, hot water, and spices.',
@@ -267,8 +267,8 @@ export const meals = [
         name: "Sweet Potato & Butternut Soup",
         mealType: "soup",
         mealSearch: ['soup', 'beans', 'sweet potatoe', 'carrots', 'butternut'],
-        isVege : true,
-        image:"/images/butternut-soup.jpg",
+        isVege: true,
+        image: "/images/butternut-soup.jpg",
         alt: " ",
         ingredients: [
             '2 large carrots, peeled and grated',
@@ -278,7 +278,7 @@ export const meals = [
             '400g pumpkin or butternut flesh, diced into smallish cubes',
             '2 large sweet potatoes ',
         ],
-        instructions:[
+        instructions: [
             'Saute the onion, garlic, carrots, apple and veg in some cooking oil, to get a touch of caramelization. Season with salt and pepper.',
             'Stir in either chicken or veg stock to more than cover the veg (you can use a stock cubedissolved in hot water)  ',
             'Simmer until done, adding a little nutmeg if you have',
@@ -295,8 +295,8 @@ export const meals = [
         name: "Uncle Roly's yummy Milk Tart(Old Style)",
         mealType: "dessert",
         mealSearch: ['pudding', 'milk', 'tart', 'sugar'],
-        isVege : true,
-        image:"/images/milk-tart.JPG",
+        isVege: true,
+        image: "/images/milk-tart.JPG",
         alt: "Picture of Milk Tart",
         ingredients: [
             '4 1/2 cups Milk',
@@ -310,7 +310,7 @@ export const meals = [
             '1/2 cup Sugar',
             'Cinnamon'
         ],
-        instructions:[
+        instructions: [
             'Preheat the oven to 180 deg',
             'Mix together the butter, flour and sugar',
             'Press mixture into a tart pan',
@@ -333,8 +333,8 @@ export const meals = [
         name: "Netties Irish Coddle",
         mealType: "main",
         mealSearch: ['stew', 'pork', 'irish', 'sausage', 'bacon'],
-        isVege : false,
-        image:"/images/irish-coddle.JPG",
+        isVege: false,
+        image: "/images/irish-coddle.JPG",
         alt: "Irish Coddle in pot",
         ingredients: [
             '1 large Onion',
@@ -345,7 +345,7 @@ export const meals = [
             'Salt',
             'Pepper'
         ],
-        instructions:[
+        instructions: [
             'Dice and fry the onions and bacon together till onion is clear in color',
             'Add sausages and sufficient water to cover them',
             'Leave to simmer till sausages are cooked and soft',
@@ -363,8 +363,8 @@ export const meals = [
         name: "Healthy Muffins for Kids - savoury",
         mealType: "snackbread",
         mealSearch: ['muffins', 'healthy', 'kids', 'zucchini', 'cheese', 'muffin', 'health'],
-        isVege : true,
-        image:'/images/Health-kid-muffins.JPG',
+        isVege: true,
+        image: '/images/Health-kid-muffins.JPG',
         alt: 'Healthy kids muffins image',
         ingredients: [
             '2 1/2 cups flour',
@@ -378,7 +378,7 @@ export const meals = [
             '1 grated zucchini',
             '1/2 cup gratted cheddar cheese'
         ],
-        instructions:[
+        instructions: [
             'Pre-heat oven to 180 deg and get 12 muffin cups ready',
             'In a bowl, mix all the dry ingredients together',
             'In another bowl mix all wet ingredients together',
@@ -395,8 +395,8 @@ export const meals = [
         name: "Healthy Muffins for Kids - sweet",
         mealType: "snackbread",
         mealSearch: ['muffins', 'healthy', 'kids', 'peanut', 'jam', 'muffin', 'peanuts'],
-        isVege : true,
-        image:'/images/Health-kid-muffins-sweet.JPG',
+        isVege: true,
+        image: '/images/Health-kid-muffins-sweet.JPG',
         alt: 'Healthy kids muffins image',
         ingredients: [
             '2 1/2 cups flour',
@@ -410,7 +410,7 @@ export const meals = [
             '1/4 cup Peanut Butter',
             '1/4 cup stawberry jam'
         ],
-        instructions:[
+        instructions: [
             'Pre-heat oven to 180 deg and get 12 muffin cups ready',
             'In a bowl, mix all the dry ingredients together',
             'In another bowl mix all wet ingredients together',
@@ -427,8 +427,8 @@ export const meals = [
         name: "Simple Pasta Salad",
         mealType: "salad",
         mealSearch: ['pasta', 'salad', 'zucchini', 'tomatoes'],
-        isVege : true,
-        image:"/images/simple-pasta-salad.JPG",
+        isVege: true,
+        image: "/images/simple-pasta-salad.JPG",
         alt: "Simple pasta salad image",
         ingredients: [
             '1 pound dried pasta like fusilli, penne, rotini or farfalle (bow tie)',
@@ -446,7 +446,7 @@ export const meals = [
             '2 to 3 tablespoons juice from pepperoncini jar, optional',
             '1/2 cup extra-virgin olive oil',
         ],
-        instructions:[
+        instructions: [
             'Bring a large pot of salted water to a boil. Add pasta and cook until tender, 6 to 10 minutes (check the package for recommended cook time). Drain and rinse well under cold water.',
             'While the pasta cooks, in the bottom of a large bowl, make the dressing. Whisk the red wine vinegar, salt, pepper, oregano, pepperoncini juice (if using), and the olive oil until blended. Add the drained and rinsed pasta to the dressing and mix well.',
             'Stir in the bell pepper, zucchini, tomatoes, scallions, pepperoncini (if using), olives, parmesan, mozzarella, and the herbs (if using). Taste for seasoning and adjust with salt and pepper as needed. Serve or for the best results, cover and refrigerate at least 30 minutes and up to 5 days',
@@ -459,8 +459,8 @@ export const meals = [
         name: "Joghurt Brötchen (Yoghurt Rolls)",
         mealType: "snackbread",
         mealSearch: ['rolls', 'bread', 'yoghurt', 'raisins', 'breadroll', 'breadrolls'],
-        isVege : true,
-        image:"",
+        isVege: true,
+        image: "",
         alt: "Raisin rolls",
         ingredients: [
             '275g Flour',
@@ -471,7 +471,7 @@ export const meals = [
             '2 tbs Raisins',
             '1 Apple'
         ],
-        instructions:[
+        instructions: [
             'Heat oven to 180 deg',
             'Mix together yoghurt, oil and milk',
             'Add flour and baking powder and knead',
@@ -487,8 +487,8 @@ export const meals = [
         name: "Easy-lemon-sheet-cake",
         mealType: "dessert",
         mealSearch: ["tarts", "milk", "pastry", 'lemon'],
-        isVege : true,
-        image:"/images/lemon-cake.JPG",
+        isVege: true,
+        image: "/images/lemon-cake.JPG",
         alt: "Lemon cake slice",
         ingredients: [
             "1 cup unsalted butter, room temperature",
@@ -501,7 +501,7 @@ export const meals = [
             "1/4 tsp salt",
             "1 1/2 cup icing sugar"
         ],
-        instructions:[
+        instructions: [
             "Preheat the oven to 180°C. Spray a 9x13 inch baking pan with non-stick spray or grease with butter and line with a sheet of baking paper.",
             "In the bowl of a stand mixer fitted with the paddle attachment, combine room temperature butter and sugar. Beat at medium speed until light and fluffy, about 2-3 minutes.",
             "Add eggs, one at a time and beat until just combined after adding each egg",
@@ -521,13 +521,13 @@ export const meals = [
         name: "Trinchado",
         mealType: "main",
         mealSearch: ["beef", "pork", "stew", "red wine"],
-        isVege : false,
-        image:"/images/Trinchado.JPG",
+        isVege: false,
+        image: "/images/Trinchado.JPG",
         alt: "Beef Trinchado",
         ingredients: [
             "2 Tbs Worchester sauce"
         ],
-        instructions:[
+        instructions: [
         ],
         notes: [
         ],
@@ -537,8 +537,8 @@ export const meals = [
         name: "Käse Brötchen",
         mealType: "snackbread",
         mealSearch: ["cheese", "rolls"],
-        isVege : true,
-        image:"",
+        isVege: true,
+        image: "",
         alt: "Cheese breadroll image",
         ingredients: [
             "225ml Milk",
@@ -552,7 +552,7 @@ export const meals = [
             "1 Egg for tops",
             "100gr grated cheese for top"
         ],
-        instructions:[
+        instructions: [
             "Mix Flour and Yeast and then add all other ingredients except cheese and knead with a dough hook on a low settingbriefly and then on high for 5 minutes",
             "Knead the cheese in last and cover and leave in a warm place till it has risen",
             "Warm oven to 180 deg",
@@ -568,8 +568,8 @@ export const meals = [
         name: "Knoblauch Aufstrich",
         mealType: "snackbread",
         mealSearch: ['garlic', 'dip', 'spread'],
-        isVege : true,
-        image:"",
+        isVege: true,
+        image: "",
         alt: "Garlic dip",
         ingredients: [
             "1 große Knoblauchknolle",
@@ -579,7 +579,7 @@ export const meals = [
             "1 Dose weiße Bohnen",
             "Salz und Pfeffer"
         ],
-        instructions:[
+        instructions: [
             "Ofen 200 Grad vorheizen",
             "Obere Spitze der Knoblauch knolle ca 1c breit abschneiden",
             "Thymian abbrausen, trockenschütteln, dann die Blättchen von der Stangeln abziehen und zusammen mit öl und Zitronen zu einer Marinade mischen",
@@ -592,43 +592,278 @@ export const meals = [
         uuid: 18
     },
     {
-        name: "tester meat meal",
-        mealType: "breakfast",
-        mealSearch: [],
-        isVege : false,
-        image:"",
-        alt: "",
+        name: "Avjar",
+        mealType: "snackbread",
+        mealSearch: ['aubergine', 'pepper', 'garlic', 'spread'],
+        isVege: true,
+        image: "",
+        alt: "Avjar in bottle",
         ingredients: [
+            '1 Aubergine',
+            '2 Large Red Peppers',
+            '1 Onion',
+            '3 1/2 Tbsp Olive Oil',
+            '2 Garlic cloves',
+            '1 Red Chilli',
+            '2 Tbsp Apple Cider Vinegar',
+            '1 Tsp sugar',
+            'Pepper',
+            'Salt'
         ],
-        instructions:[
+        instructions: [
+            'Heat your oven to 200 deg celcius',
+            "Rinse the vegetables",
+            'Slice the aubergine lengthways in 1.5cm think slices',
+            'Half the peppers and remove the seeds',
+            'Peel and quater the onion',
+            'Halve the garlic cloves',
+            'Place all the veg on a baking tray and use 2 Tbsp of oil and coat the veges',
+            'Pop in the oven for 35 minutes',
+            'Slice the chilli in half, remove the stalk and seeds and chop very fine, mix it with the apple cider vinegar, sugar and the rest of the oil.',
+            'Remove the aubergine and peppers from the skin, and squuze the garlic out of its casing',
+            'Mix the veges and the rest of the ingredients together and puree, add some salt and pepper for flavour',
+            'Put the mixture in a casserole pot and in the oven at 180 deg for around 1 hour to thicken'
+        ],
+        notes: [
+            'This spread can be kept for a few days in the fridge',
+            'It goes so well on fresh bread'
+        ],
+        uuid: 19
+    },
+    {
+        name: "Naan bread",
+        mealType: "snackbread",
+        mealSearch: ['indian'],
+        isVege: true,
+        image: "",
+        alt: "Naan Bread ",
+        ingredients: [
+            '50gr Butter',
+            '350gr White Bread Flour',
+            '7gr yeast',
+            '1tsp salt',
+            '1 tsp sugar',
+            '100ml Greek Yoghurt',
+            '150ml warm water'
+        ],
+        instructions: [
+            'Melt the butter',
+            'Mix flour, yeast, salt and sugar',
+            'Make a well in the center and add yoghurt, water and butter',
+            'Mix till it forms a ball',
+            'Knead for about another 5 minutes',
+            "Let it sit for an hour in a warm spot",
+            'Preheat the oven to 230 deg and place a baking tray in it to warm up',
+            'Knock the dough back, divide into 8 pieces and roll into flat breads',
+            'Place on the heated tray, cook for 5 - 10 minutes'
+        ],
+        notes: [
+            'Once cooked you can coat with butter and garlic for extra yumminess'
+        ],
+        uuid: 20
+    },
+    {
+        name: "Strawberry Spinach Salat",
+        mealType: "salad",
+        mealSearch: ['spinach', 'strawberry', 'salad', 'feta', 'balsamic'],
+        isVege: true,
+        image: "",
+        alt: "Spinach Strawberry Salad ",
+        ingredients: [
+            '1 bag baby Spinach',
+            '3/4 cup chopped pecan nuts',
+            '1 punnet fresh Strawberries sliced',
+            '1 small red onion thinly sliced',
+            '1 tbsp Dijon mustard',
+            '1/2 cup olive oil',
+            '1 tbsp honey',
+            '1 1/2 tbsp sugar',
+            '1/2 tbsp butter',
+            '1/2 cup Balsamic vinegar'
+        ],
+        instructions: [
+            'In a saucepan boil the balsamic till reduced to half',
+            'Pour into a bowl and add the mustard and honey and whick together',
+            'Add salt and pepper to taste',
+            "In a pan over medium heat place pecans, butter and sugar and stir until caramelized",
+            'Toss the spinach, strawberries and half the feta',
+            'Drizzle 1/3 of dressing over salad, top with rest of feta and nuts',
+            'Put rest of dressing on table to be used as needed.'
         ],
         notes: [
         ],
-        uuid: 18
+        uuid: 21
     },
+    {
+        name: "One Pot Orzo",
+        mealType: "main",
+        mealSearch: ['Chickpeas', 'zuchinni', 'spinach', 'Orzo rice'],
+        isVege: true,
+        image: "",
+        alt: "One pot Orzo",
+        ingredients: [
+            '1 Tbsp Olive Oil',
+            '1 cup diced onion',
+            '1 Tbsp mined garlic',
+            '1 can drained chickpeas',
+            '2 cups cherry tomatoes',
+            '1 cup diced zuchini',
+            '500gr Orzo rice',
+            '6 cups water',
+            '1 cup peas',
+            '2 cups chopped spinach',
+            '1 tsp salt',
+            '1/4 tsp Pepper',
+            '1 tsp Garlic powder',
+
+        ],
+        instructions: [
+            'Saute the onion, garlic, zuchini and chickpeas for a few minutes',
+            'Add the Orzo and water (start with 4 cups water and add when needed)',
+            'On medium heat stir continuously till the liquid is gone and rice is almost cooked',
+            'Add the spinach and peas',
+            'Wait 10mins and then taste',
+            'Season with salt and pepper',
+            'Serve with grated parmesan on top',
+        ],
+        notes: [
+        ],
+        uuid: 22
+    },
+    {
+        name: "Farfalle with yoghurt paprika sauce",
+        mealType: "main",
+        mealSearch: ['Farfalle', 'pasta'],
+        isVege: true,
+        image: "",
+        alt: "Farfalle with yoghurt paprika sauce",
+        ingredients: [
+            '250gr mini Farfalle pasta (no 7)',
+            '400gr natural yoghurt',
+            '3 cloves garlic pressed',
+            '40gr butter',
+            '2 teaspoons paprika powder',
+            'Salt',
+        ],
+        instructions: [
+            'Cook the farfelle till al-dente',
+            'Mix the Yoghurt with the garlic and salt',
+            'Heat the butter and mix with paprika powder and fry quickly',
+            'Top the pasta with the yoghurt mix and drizzle over the paprika mixture.'
+        ],
+        notes: [
+        ],
+        uuid: 23
+    },
+    {
+        name: "Granola Bars",
+        mealType: "snackbread",
+        mealSearch: ['healthy', 'oats', 'dates', 'raisens'],
+        isVege: true,
+        image: "",
+        alt: "Granola bars",
+        ingredients: [
+            '240gr Oats',
+            '350gr Dates',
+            '200gr Raisens',
+            '200gr Flax seeds',
+            '350gr Seeds and nuts',
+            '3 Tbsp Coconut Oil',
+            '3 tsp Chia seeds',
+            '3 tsp zimt',
+        ],
+        instructions: [
+            'Preheat oven to 180 deg',
+            'Put dates with oil and cover with boiling water to soften',
+            'Mix dry ingredients together',
+            'Blend dates, Oil, water and chia together till smooth',
+            'Pour over dry ingredients and mix',
+            'Pour into a lined tray and bake for 20 minutes',
+            'Cut into bars and then cook for another 20 minutes',
+
+        ],
+        notes: [
+        ],
+        uuid: 24
+    },
+    {
+        name: "Power Flapjacks",
+        mealType: "snackbread",
+        mealSearch: ['banana', 'peanut'],
+        isVege: true,
+        image: "",
+        alt: "Power Flapjacks",
+        ingredients: [
+            '2 Bananas',
+            '1 Egg',
+            '2 Tbsp peanut butter'
+        ],
+        instructions: [
+            'Mix all ingredients in a blender',
+            'Drop into a hot pan in batches and fry',
+            'Top with some honey or syrup'
+        ],
+        notes: [
+        ],
+        uuid: 25
+    },
+    {
+        name: "Healthy Easy Banan Muffins",
+        mealType: "snackbread",
+        mealSearch: ['banana', 'muffin'],
+        isVege: true,
+        image: "",
+        alt: "Banan Muffins",
+        ingredients: [
+            '2 Cups flour',
+            '1/4 cup oats',
+            '1 tsp baking powder',
+            '1/2 tsp Cinnamon',
+            '1/2 tsp salt',
+            '2 or 3 large bananas',
+            '2 eggs',
+            '1/2 cup honey',
+            '1/3 cup oil',
+            '1/4 cup milk',
+            'vanilla',
+
+        ],
+        instructions: [
+            'Preheat oven to 180 deg',
+            'Mix flour, oats, baking powder, zimt and salt',
+            'Beat the bananas, eggs, honey, oil, milk and vanilla',
+            'add dry ingredients',
+            'Spoon in muffin pan and bake for between 15 and 20 minutes',
+
+        ],
+        notes: [
+        ],
+        uuid: 26
+    },
+
 ]
 
 
-    /*
-    ideas:
-    banana muffins
-    Croatian rice meal
-    Crumpets
-    
-    
-    
-    {
-        name: "",
-        mealType: "",
-        mealSearch: [],
-        isVege : "",
-        image:"",
-        alt: " ",
-        ingredients: [
-        ],
-        instructions:[
-        ],
-        notes: [
-        ],
-        uuid: uuidv4()
-    },*/
+/*
+ideas:
+banana muffins
+Croatian rice meal
+Crumpets
+ 
+ 
+ 
+{
+    name: "",
+    mealType: "",
+    mealSearch: [],
+    isVege : "",
+    image:"",
+    alt: " ",
+    ingredients: [
+    ],
+    instructions:[
+    ],
+    notes: [
+    ],
+    uuid: uuidv4()
+},*/
